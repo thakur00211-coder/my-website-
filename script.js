@@ -1,3 +1,5 @@
-function showMessage() {
-      alert("Hello from JavaScript!");
-      }
+const button = document.querySelector("button");
+
+button.addEventListener("click", () => {
+  alert("Welcome to Alpha Gym!");
+  });
